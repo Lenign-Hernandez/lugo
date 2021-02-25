@@ -1,0 +1,58 @@
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.footer {
+    background-color: #38215c;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.logo-nav {
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: #38215c;
+}
+
+.card {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+}
+
+.img-card {
+    height: 70px;
+    width: 70px;
+}
+
+.padding {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(65, 122, 65);
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.text-card {
+    color: white;
+}
+
+.text-client {
+    color: #38215c;
+}
+
+.select {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: auto;
+}
