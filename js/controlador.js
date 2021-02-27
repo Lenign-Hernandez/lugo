@@ -1,56 +1,52 @@
 ///-----------------------------------------------USUARIOS
-var usuarios = [
-    {
-        nombre:"Pedro",
-        apellido:"Martinez",
-        ordenes:[
-            {
-                nombreProducto:"Producto 1",
+var usuarios = [{
+        nombre: "Pedro",
+        apellido: "Martinez",
+        ordenes: [{
+                nombreProducto: "Producto 1",
                 descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-                cantidad:2,
-                precio:49.99
+                cantidad: 2,
+                precio: 49.99
             },
             {
-                nombreProducto:"Producto 2",
+                nombreProducto: "Producto 2",
                 descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-                cantidad:2,
-                precio:49.99
+                cantidad: 2,
+                precio: 49.99
             }
         ]
     },
     {
-        nombre:"Juan",
-        apellido:"Perez",
-        ordenes:[
-            {
-                nombreProducto:"Producto 3",
+        nombre: "Juan",
+        apellido: "Perez",
+        ordenes: [{
+                nombreProducto: "Producto 3",
                 descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-                cantidad:2,
-                precio:49.99
+                cantidad: 2,
+                precio: 49.99
             },
             {
-                nombreProducto:"",
+                nombreProducto: "",
                 descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-                cantidad:2,
-                precio:49.99
+                cantidad: 2,
+                precio: 49.99
             }
         ]
     },
     {
-        nombre:"Maria",
-        apellido:"Rodriguez",
-        ordenes:[
-            {
-                nombreProducto:"Producto 4",
+        nombre: "Maria",
+        apellido: "Rodriguez",
+        ordenes: [{
+                nombreProducto: "Producto 4",
                 descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-                cantidad:2,
-                precio:49.99
+                cantidad: 2,
+                precio: 49.99
             },
             {
-                nombreProducto:"Producto 1",
+                nombreProducto: "Producto 1",
                 descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-                cantidad:2,
-                precio:49.99
+                cantidad: 2,
+                precio: 49.99
             }
         ]
     }
@@ -58,18 +54,15 @@ var usuarios = [
 
 
 ///-----------------------------------------------CATEGORIAS
-var categorias = [
-    {
-        nombreCategoria:"Farmacias",
-        descripcion:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-        color:"#9482C4",
-        icono:"fab fa-angellist",
-        empresas:[
-            {
+var categorias = [{
+        nombreCategoria: "Farmacias",
+        descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+        color: "#9482C4",
+        icono: "fab fa-angellist",
+        empresas: [{
                 nombreEmpresa: "Empresa 1",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -93,9 +86,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 2",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -119,9 +111,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 3",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -146,16 +137,14 @@ var categorias = [
         ]
     },
     {
-        nombreCategoria:"Restaurantes",
-        descripcion:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-        color:"#9482C4",
-        icono:"fab fa-angellist",
-        empresas:[
-            {
+        nombreCategoria: "Restaurantes",
+        descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+        color: "#9482C4",
+        icono: "fab fa-angellist",
+        empresas: [{
                 nombreEmpresa: "Empresa 1",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -179,9 +168,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 2",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -205,9 +193,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 3",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -232,16 +219,14 @@ var categorias = [
         ]
     },
     {
-        nombreCategoria:"Salud",
-        descripcion:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-        color:"#9482C4",
-        icono:"fab fa-angellist",
-        empresas:[
-            {
+        nombreCategoria: "Salud",
+        descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+        color: "#9482C4",
+        icono: "fab fa-angellist",
+        empresas: [{
                 nombreEmpresa: "Empresa 1",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -265,9 +250,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 2",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -291,9 +275,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 3",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -318,16 +301,14 @@ var categorias = [
         ]
     },
     {
-        nombreCategoria:"Café",
-        descripcion:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-        color:"#9482C4",
-        icono:"fab fa-angellist",
-        empresas:[
-            {
+        nombreCategoria: "Café",
+        descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+        color: "#9482C4",
+        icono: "fab fa-angellist",
+        empresas: [{
                 nombreEmpresa: "Empresa 1",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -351,9 +332,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 2",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -377,9 +357,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 3",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -404,16 +383,14 @@ var categorias = [
         ]
     },
     {
-        nombreCategoria:"Bebidas",
-        descripcion:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
-        color:"#9482C4",
-        icono:"fab fa-angellist",
-        empresas:[
-            {
+        nombreCategoria: "Bebidas",
+        descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
+        color: "#9482C4",
+        icono: "fab fa-angellist",
+        empresas: [{
                 nombreEmpresa: "Empresa 1",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -437,9 +414,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 2",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -463,9 +439,8 @@ var categorias = [
             },
             {
                 nombreEmpresa: "Empresa 3",
-                imagen:"img/banner.jpg",
-                productos:[
-                    {
+                imagen: "img/banner.jpg",
+                productos: [{
                         nombreProducto: "Producto 1",
                         descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!",
                         precio: 49.99
@@ -491,5 +466,7 @@ var categorias = [
     }
 ];
 
-console.log ('Usuarios', usuarios);
-console.log ('Categorias', categorias);
+console.log('Usuarios', usuarios);
+console.log('Categorias', categorias);
+
+document.getElementById('text');
